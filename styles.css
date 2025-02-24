@@ -4,10 +4,12 @@ body {
 }
 /* each HTML element can be defined and stylized */
 h1 {
-    color: white
+    margin: 20px;
+    color: orange
 }
 p {
-    color: white
+    margin: 20px;
+    color: orange
 }
 /* even the image can be stylized using CSS */
 img {
@@ -17,10 +19,30 @@ img {
     border-color: rgb(190, 108, 0);
     
 }
+img:hover {
+    border-style: groove;
+    border-color: rgb(255, 188, 62);
+}
 a {
     color: orange;
     /* normal font size for websites is 16px */
     font-size: 50px;
     /* defines text decoration (underline, bold, etc) */
     text-decoration: none;
+}
+/*  */
+#main-nav {
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    padding: 10px;
+}
+/* defining the a allows the text to be personalized */
+#main-nav a {
+    font-size: 32px;
+    margin: 20px;
+}
+/* a:hover is a psuedo class that effects what happens when the navigation text is hovered over */
+#main-nav a:hover {
+    text-decoration: underline;
+
 }
