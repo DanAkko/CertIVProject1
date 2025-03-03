@@ -12,6 +12,36 @@
         <a href="index.html">Home</a>
         <a href="contact.html">Contact Me</a>
     </nav>
-    
+    <p>
+        Email me at <a href="mailto:fake@notreal.com">fake@notreal.com</a>
+    </p>
+    <p>
+        Call me on <a href="tel:0400000000">0400 000 000</a><br>
+    </p>
+    <p>
+        Come and visit me!<br><br>
+    <!-- embedded google maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6952.979613172481!2d151.187464!3d-33.8215493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12af1fe3b9b887%3A0x6fda02f3cc79cba1!2sTAFE%20NSW%20-%20St%20Leonards!5e1!3m2!1sen!2sau!4v1740992466406!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+    </p>
+        <p>
+            Have a problem, suggestion or just want to chat?
+            <br>
+            Send me a message below!
+        </p>
+        <form method="post" action="https://example.com/contact">
+            <label for="first">Your First Name:</label>
+            <!-- id="" gives a name to the element used across HTML, name="" is specifically for <form> -->
+            <input type="text" name="first name" id="first"><br>
+            <label for="email">Your Email Address</label>
+            <input type="email" name="email address" id="email"><br>
+            <!-- checkbox can also be used -->
+            <!-- input line is placed before label line to make checkbox appear before the label -->
+            <!-- "checked" is added at the end of <input> to make the checkbox checked by default -->
+            <input type="checkbox" name="preference" id="pref" checked>
+            <label for="pref">Yes, I like spam</label><br>
+            <button type="submit">Send</button>
+            <button type="reset">Cancel</button>
+    </form>
+
 </body>
 </html>
